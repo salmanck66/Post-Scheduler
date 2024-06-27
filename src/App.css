@@ -1,0 +1,108 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fafafa;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+input[type="text"],
+input[type="url"],
+input[type="datetime-local"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button {
+  background-color: #0095f6;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #b2dffc;
+}
+
+.post {
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post h1 {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.post img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.post a {
+  display: block;
+  color: #00376b;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.post p {
+  padding: 10px;
+  color: #8e8e8e;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.create-post {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.create-post h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
